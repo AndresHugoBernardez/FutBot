@@ -520,7 +520,7 @@ void correrDer(){
  stopTime=millis()+150;
 
   girarDerecha();
-  while(Letra=='D'&&currentTime<stopTime){
+  while(Letra=='K'&&currentTime<stopTime){
     currentTime=millis();
     delay(10);
   }
@@ -529,7 +529,7 @@ void correrDer(){
 stopTime=millis()+300;
 
   adelante();
-  while(Letra=='D'&&currentTime<stopTime){
+  while(Letra=='K'&&currentTime<stopTime){
     currentTime=millis();
     delay(10);
   }
@@ -539,7 +539,7 @@ stopTime=millis()+300;
   stopTime=millis()+300;
 
   girarIzquierda();
-  while(Letra=='D'&&currentTime<stopTime){
+  while(Letra=='K'&&currentTime<stopTime){
     currentTime=millis();
     delay(10);
   }
@@ -551,7 +551,7 @@ stopTime=millis()+300;
   stopTime=millis()+300;
 
   atras();
-  while(Letra=='D'&&currentTime<stopTime){
+  while(Letra=='K'&&currentTime<stopTime){
     currentTime=millis();
     delay(10);
   }
@@ -563,7 +563,7 @@ stopTime=millis()+300;
   stopTime=millis()+150;
 
     girarDerecha();
-    while(Letra=='D'&&currentTime<stopTime){
+    while(Letra=='K'&&currentTime<stopTime){
       currentTime=millis();
       delay(10);
     }
